@@ -1,0 +1,173 @@
+body{
+    background-image: url("c:/Users/Admin/Desktop/bgc.png");
+    background-repeat: no-repeat;
+    background-color: #282828;
+    background-repeat: no-repeat;
+}
+.menu{
+    color:white;
+    border: 10px  white;
+    font-size: 24px;
+    
+    border-collapse:collapse;
+    font-family:'Montserrat', Courier, monospace;
+    font-weight: 400;
+  margin:auto;
+  margin-top: 15px;
+
+}
+td{
+    padding:20px;
+    padding-right: 100px;
+    padding-left: 100px;
+   
+}
+.dd{
+    border-left: none;
+   
+    
+}
+.dd1{
+    border-right: none;
+}
+
+.upp{
+    display: flex;
+    margin-left:319px;
+    
+    margin-top:40px;
+}
+.address{
+
+    color:white;
+}
+.addres1{
+margin-left: 950px;
+    color:white;
+}
+.btn{
+   margin-left:570px;
+    display: flex;
+
+}
+.btn{
+    display: flex;
+align-items: center;
+height: 1000px;
+
+}
+button{
+    background-color: #99862A;
+    color:white;
+margin-right:40px;
+    border: none;
+    font-size: 16px;
+    font-style:initial;
+
+    padding:15px 30px 15px 30px;
+}
+.circle{
+    width: 55%;
+height: 856px;
+color: white;
+border: solid;
+margin-left:200px;
+margin-top:220px;
+
+}
+.best{
+    font-size: 55px;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.tex{
+    display: flex;
+    font-size:25px;
+    justify-content: center;
+    text-align: center;
+    margin-top:17px;
+    margin-bottom: 40px;
+    color: white;
+}
+h1{
+    font-size:45px;
+    color: white;
+
+}
+hr{
+    width:16%;
+}
+.rod{
+    margin-top: 45px;
+    
+}
+.ph{
+    width: 25%;
+    height: 250px;
+}
+.sa{
+    display: flex;
+    justify-content: center;
+}
+.rig{
+
+    height: 656px;
+    width: 1100px;
+    border:4px solid white;
+  text-align: center;
+
+justify-content: center;
+}
+.sc{
+    height: 2000px;
+}
+@media(max-width:1200px){
+    .circle{
+        max-width: 970px;
+        
+    }
+    .best{
+        font-size: 70px;
+
+    }
+    .tex{
+        font-size: 30px;
+    }
+    button{
+
+    font-size: 50px;
+}
+}
+@media(max-width:970px){
+    .circle{
+        max-width: 700px;
+        
+    }
+    .best{
+        font-size: 50px;
+    }
+    .tex{
+       font-size: 15px;
+    }
+    button{
+     
+        font-size: 40px;
+    }
+}
+@media(min-width:500px ){
+    .circle{
+        max-width: none;
+    }
+    .best{
+        font-size: none;
+    }
+    .tex{
+        max-width: none;
+    }
+    button{
+       
+        font-size: none;
+
+    }
+}
